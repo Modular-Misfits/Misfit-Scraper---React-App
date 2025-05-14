@@ -1,0 +1,35 @@
+/* App.css */
+#root {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0.5rem; /* Default padding for smaller screens */
+}
+
+#root table tbody tr:nth-child(even) {
+  background-color: #f0f8ff !important; /* Light blue-gray */
+}
+
+#root table tbody tr:nth-child(odd) {
+  background-color: #ffffff !important; /* White */
+}
+#root table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#root table th,
+#root table td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+#root table th {
+  background-color: #f0f8ff !important; /* Light blue-gray */
+  color: #333;
+  font-weight: bold;
+}
+#root table td {
+  color: #555;
+}
+#root table tr:hover {
+  background-color: #e0f7fa !important; /* Light blue */
+}

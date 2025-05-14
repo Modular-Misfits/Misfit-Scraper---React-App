@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+httpx
+python-multipart
+cachetools
+aioredis  # for Redis caching
+python-dotenv  # for loading env variables

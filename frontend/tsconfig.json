@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" },
+  ],
+  "compilerOptions": 
+  {
+    "target": "es2015",
+    "lib": ["dom", "es2015"],
+    "downlevelIteration": true,
+  }
+}
